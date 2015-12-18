@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Shopify API Config -->
+    <string name="shop_url"></string>
+    <string name="shopify_api_key"></string>
+    <string name="channel_id"></string>
+    <string name="app_name"></string>
+    <string name="action_settings">Settings</string>
+
+    <!-- UI -->
+    <string name="error">Error! See logcat for details.</string>
+    <string name="all_products">All Products</string>
+    <string name="shop_error">Error! Could not load shop. ProductDetailsActivity will not work.</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+</resources>
