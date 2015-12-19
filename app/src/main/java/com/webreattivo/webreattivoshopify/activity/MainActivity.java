@@ -1,6 +1,8 @@
 package com.webreattivo.webreattivoshopify.activity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 import com.shopify.buy.model.Collection;
@@ -34,6 +36,12 @@ public class MainActivity extends BaseActivity {
                 );
                 ListView listView = (ListView) findViewById(R.id.list_view);
                 listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        Toast.makeText(getApplicationContext(), "id: " + view.getTag(), Toast.LENGTH_LONG).show();
+                    }
+                });
             }
 
             @Override

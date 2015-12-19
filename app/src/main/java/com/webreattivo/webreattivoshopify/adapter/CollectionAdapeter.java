@@ -40,6 +40,8 @@ public class CollectionAdapeter extends ArrayAdapter<Collection> {
                 .centerCrop()
                 .into(imageView);
 
+        convertView.setTag(collection.getCollectionId());
+
         return convertView;
     }
 }
