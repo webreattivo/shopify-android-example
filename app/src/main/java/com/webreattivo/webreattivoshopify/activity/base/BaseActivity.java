@@ -6,7 +6,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
-
 import com.shopify.buy.dataprovider.BuyClient;
 import com.webreattivo.webreattivoshopify.R;
 import com.webreattivo.webreattivoshopify.application.WebReattivoApplication;

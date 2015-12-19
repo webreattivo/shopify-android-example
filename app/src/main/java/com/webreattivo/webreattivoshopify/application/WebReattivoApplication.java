@@ -3,20 +3,16 @@ package com.webreattivo.webreattivoshopify.application;
 import android.app.Application;
 import android.text.TextUtils;
 import android.widget.Toast;
-
 import com.shopify.buy.dataprovider.BuyClient;
 import com.shopify.buy.dataprovider.BuyClientFactory;
 import com.shopify.buy.model.Collection;
 import com.shopify.buy.model.Product;
 import com.shopify.buy.model.Shop;
 import com.webreattivo.webreattivoshopify.R;
-
 import java.util.List;
-
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
-
 
 public class WebReattivoApplication extends Application {
 
